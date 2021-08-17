@@ -16,8 +16,8 @@ function makeUrl($path){
 $uri = parse_url($_SERVER['REQUEST_URI']);
 $path = $uri['path'];
 
-if ($path == '/panier?clean_panier?'){ 
-    session_unset();
+if (isset($_GET['clean_panier?'])){ 
+    unset($_SESSION['card']);
 }
 
 if($path == '/'){
