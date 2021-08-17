@@ -1,0 +1,164 @@
+.header{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+}
+
+#Panier{
+    display: flex;
+    padding-left: auto;
+    padding-right: 30px;
+}
+
+#logo{
+    display: flex;
+    margin-right: 200px;
+   
+}
+
+.Body{
+    background-image: url("/site-background.svg");
+}
+
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carte {
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    background-color:#F4F6F7;
+    margin-top: auto;
+}
+
+.nom_glace{
+    margin-bottom: -9px;
+    height: 40px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 0 60% 0 30%;
+    /* margin-bottom: -9%;*/
+}
+
+.prix {
+    position: relative;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    background-color: crimson;
+    font-weight: bold;
+    margin-left: 60%;
+    margin-right: 4%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.boxClick {
+    margin-top: 2%;
+    background: rgb(85, 71, 212);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.add_to_cart {
+    color: aliceblue;
+    font-size: large;
+    width: 100%;
+} 
+
+.panier{
+    background-color: darkblue;
+}
+
+.description{
+    position: absolute;
+    display: none;
+    width: 19%;
+    background-color: seashell;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.30);
+    opacity: 90%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.nom_glace:hover + .description{
+    cursor: pointer;
+    display: block;
+}
+
+.boxClick:hover{
+    cursor: pointer;
+}
+
+.footer{
+    background-color: tan;
+    text-align: center;
+}
+
+.carte_add{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50%;
+    width: 25%;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    background-color:#F4F6F7;
+    margin-top: auto;
+}
+
+.img_add{
+    width: 100%;
+    border-radius: 0 60% 0 30%;
+    display: flex;
+}
+
+.nom_glace_add{
+    display: flex;
+    padding-left: 10px;
+}
+
+.boxClick_add{
+    margin-top: 2%;
+    background: rgb(85, 71, 212);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.boxClick_add2{
+    margin-top: 2%;
+    background: rgb(85, 71, 212);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.prix_add {
+    position: relative;
+    background-color: crimson;
+    font-weight: bold;
+    margin-bottom: 68%;
+    margin-right: 4%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px 5px 5px 5px;
+}
